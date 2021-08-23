@@ -16,9 +16,7 @@ namespace JsonFiddle
         public int defaultRating { get; set; }
         public bool isFavorite { get; set; }
         public bool isSecured { get; set; }
-        //public object defaultIcon { get; set; }
-        //public string states { get; set; }
-
+        public object defaultIcon { get; set; }
         public States states { get; set; }
     }
 }
